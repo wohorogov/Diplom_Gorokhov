@@ -1,0 +1,1 @@
+<h1>Здравствуйте, <?= (Yii::$app->user->isGuest) ? 'Гость,' : Yii::$app->user->identity->name ?> Мы на главной странице</h1>
