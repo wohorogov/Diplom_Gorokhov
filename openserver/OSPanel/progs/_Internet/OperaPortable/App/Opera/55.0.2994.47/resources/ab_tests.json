@@ -1,0 +1,28 @@
+// rgWEmgOyU54qcIh+ykv/EHxVA0hXQQ5vRByac0i2VzrctSXu1gZzvaKeFOnrg4lw7oPbOD5t+KD6UyHDrcRWuchKbU3pDTuLaSKThrmJEub3etF1Ynlj7tAO7XKKtxVDzSf4Jjw5/R2V5dOi9kTeO5M/hug90RtO9pVn66UlsLGsv3AL3kvEFaLxHRRFjNvS8JNlu+ssnxkjJQMvlTxqhJgkvvi50IOZ1qcfxClcJXQwHDbipGCA5LqXxwiOaMBcBIOzsamhKlgaH5mmpDo4zzV24zsH0lkX31pHErQvG56+6iBqcH3E7QjxlMv/YE78JKvtqGTZeUzPFzPU/ibuRQ==
+{
+  "version": 18082184,
+  "DNA-71077": {
+    "total_test_percentage": 100,
+    "test_state": 1,
+    "test_groups" : [
+      {
+        "name": "DNA-71077-group-c",
+        "preferences": {
+          "ab_testing.search_box_animation" : 0
+        }
+      },
+      {
+        "name": "DNA-71077-group-1",
+        "preferences": {
+          "ab_testing.search_box_animation" : 1
+        }
+      },
+      {
+        "name": "DNA-71077-group-2",
+        "preferences": {
+          "ab_testing.search_box_animation" : 2
+        }
+      }
+    ]
+  }
+}

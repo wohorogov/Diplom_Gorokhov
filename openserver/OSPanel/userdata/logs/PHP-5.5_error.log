@@ -1,0 +1,2 @@
+[29-Oct-2018 22:05:49 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\openserver\OSPanel\domains\basic\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5
+[29-Oct-2018 22:06:27 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in C:\openserver\OSPanel\domains\basic\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php on line 5

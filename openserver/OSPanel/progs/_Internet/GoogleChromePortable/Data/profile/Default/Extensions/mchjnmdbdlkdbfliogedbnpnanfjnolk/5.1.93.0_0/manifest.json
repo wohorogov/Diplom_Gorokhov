@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "/background/main.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/button/inactive_19.png",
+         "38": "images/button/inactive_38.png"
+      },
+      "default_popup": "/popup/offline_popup.html",
+      "default_title": "__MSG_ToolbarButtonText__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/common/shims.js", "/common/defaults.js", "/common/tracing.js", "/content/content_plugin.js", "/content/api_injection.js", "/content/product_info.js", "/content/script_injection.js", "/snapshot/script.main.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; connect-src 'self' https://*.scr.kaspersky-labs.com wss://*.scr.kaspersky-labs.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_ExtensionDescription__",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_48.png",
+      "64": "images/icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhhp/R7UpssO3TohkOc0BB2VTslHPH4GPbxNc9MatALJuydONgipDE1UYdGbJRiRx8ET6rudFgs4U/ejIXd1OoUpF2piqbPHZ3GYnx4FSDUas9XhyWnLwCg7bgua8qVKrI86PsYlj4ksR95EhFwfcj1MyydQcF1fHi1JLoMsCjrRSGu60x5yJqhA2of+IQytVTtDbmeSIfa6cx5Do9e2xOD2cCdNUisWVdPTlXEmrxFeHF7sFesFBcXHm7fiVsWSVghpHVbmj63kTlKGotOu2Uczm5Ru6UuQQp2jGKl2ANmB1rVhfHPmlU6xHTclH4KNgcyQVEJnpRXufa6Ue3DJAkQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ExtensionName__",
+   "permissions": [ "nativeMessaging", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.1.93.0"
+}

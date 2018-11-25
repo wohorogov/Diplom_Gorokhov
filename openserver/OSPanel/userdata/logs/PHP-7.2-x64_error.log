@@ -1,0 +1,196 @@
+[24-Nov-2018 20:10:03 Europe/Moscow] PHP Warning:  require(C:\openserver\OSPanel\domains\example/vendor/autoload.php): failed to open stream: No such file or directory in C:\openserver\OSPanel\domains\example\index.php on line 7
+[24-Nov-2018 20:10:03 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'C:\openserver\OSPanel\domains\example/vendor/autoload.php' (include_path='.;c:/openserver/ospanel/modules/php/PHP-7.2-x64;c:/openserver/ospanel/modules/php/PHP-7.2-x64/PEAR/pear') in C:\openserver\OSPanel\domains\example\index.php on line 7
+[24-Nov-2018 20:10:03 Europe/Moscow] PHP Warning:  require(C:\openserver\OSPanel\domains\example/vendor/autoload.php): failed to open stream: No such file or directory in C:\openserver\OSPanel\domains\example\index.php on line 7
+[24-Nov-2018 20:10:03 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'C:\openserver\OSPanel\domains\example/vendor/autoload.php' (include_path='.;c:/openserver/ospanel/modules/php/PHP-7.2-x64;c:/openserver/ospanel/modules/php/PHP-7.2-x64/PEAR/pear') in C:\openserver\OSPanel\domains\example\index.php on line 7
+[24-Nov-2018 20:25:28 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/about in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('about', Array)
+#1 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/about', Array)
+#2 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\openserver\OSPanel\domains\basic\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\openserver\OSPanel\domains\basic\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'basic',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://basic/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=vhmhm4ud85oa024q3je605tk2b120e4i; _csrf=c7169ee9f07f733a2025dee67270f4d735231027a0bbaf8e30a42bcac8c93e22a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22676RaniW4jwyEM8NYak4Rv7yhuMXVebb%22%3B%7D',
+    'PATH' => 'c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;c:\\openserver\\ospanel\\modules\\imagemagick;c:\\openserver\\ospanel\\modules\\wget\\bin;c:\\openserver\\ospanel\\modules\\git;c:\\openserver\\ospanel\\modules\\git\\bin;c:\\openserver\\ospanel\\modules\\git\\mingw\\bin;c:\\openserver\\ospanel\\modules\\git\\cmd;c:\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;c:\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'basic',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'C:/openserver/OSPanel/domains/basic',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/openserver/OSPanel/domains/basic',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'C:/openserver/OSPanel/domains/basic/index.php',
+    'REMOTE_PORT' => '44206',
+    'REDIRECT_URL' => '/site/about',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/about',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1543080328.626,
+    'REQUEST_TIME' => 1543080328,
+    'argv' => [],
+    'argc' => 0,
+]
+[24-Nov-2018 20:25:36 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/contact in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('contact', Array)
+#1 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#2 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\openserver\OSPanel\domains\basic\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\openserver\OSPanel\domains\basic\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'basic',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://basic/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=vhmhm4ud85oa024q3je605tk2b120e4i; _csrf=c7169ee9f07f733a2025dee67270f4d735231027a0bbaf8e30a42bcac8c93e22a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22676RaniW4jwyEM8NYak4Rv7yhuMXVebb%22%3B%7D',
+    'PATH' => 'c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;c:\\openserver\\ospanel\\modules\\imagemagick;c:\\openserver\\ospanel\\modules\\wget\\bin;c:\\openserver\\ospanel\\modules\\git;c:\\openserver\\ospanel\\modules\\git\\bin;c:\\openserver\\ospanel\\modules\\git\\mingw\\bin;c:\\openserver\\ospanel\\modules\\git\\cmd;c:\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;c:\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'basic',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'C:/openserver/OSPanel/domains/basic',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/openserver/OSPanel/domains/basic',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'C:/openserver/OSPanel/domains/basic/index.php',
+    'REMOTE_PORT' => '44205',
+    'REDIRECT_URL' => '/site/contact',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/contact',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1543080335.975,
+    'REQUEST_TIME' => 1543080335,
+    'argv' => [],
+    'argc' => 0,
+]
+[24-Nov-2018 21:19:09 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/about in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('about', Array)
+#1 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/about', Array)
+#2 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\openserver\OSPanel\domains\basic\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\openserver\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\openserver\OSPanel\domains\basic\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'basic',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://basic/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=sps88vttdl69iqauvmebp3u9ju0jnpb0; _csrf=67e16ac92a976476e7450a38d9dd670e6e6665aaaf42915eb430c57b9f4ce1d2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227hpgLBjF6p0akWVoW1ufhxmei7GvV2DD%22%3B%7D',
+    'PATH' => 'c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;c:\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;c:\\openserver\\ospanel\\modules\\imagemagick;c:\\openserver\\ospanel\\modules\\wget\\bin;c:\\openserver\\ospanel\\modules\\git;c:\\openserver\\ospanel\\modules\\git\\bin;c:\\openserver\\ospanel\\modules\\git\\mingw\\bin;c:\\openserver\\ospanel\\modules\\git\\cmd;c:\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;c:\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
+    'SystemRoot' => 'C:\\WINDOWS',
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\WINDOWS',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'basic',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'C:/openserver/OSPanel/domains/basic',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/openserver/OSPanel/domains/basic',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'C:/openserver/OSPanel/domains/basic/index.php',
+    'REMOTE_PORT' => '56612',
+    'REDIRECT_URL' => '/site/about',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/about',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1543083548.915,
+    'REQUEST_TIME' => 1543083548,
+    'argv' => [],
+    'argc' => 0,
+]

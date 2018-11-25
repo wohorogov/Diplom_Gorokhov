@@ -1,0 +1,14 @@
+{
+    "ExtensionName": {
+        "message": "卡巴斯基保护",
+        "description": ""
+    },
+    "ExtensionDescription": {
+        "message": "使用 Kaspersky Lab 的扩展功能对您的互联网的保护。",
+        "description": ""
+    },
+    "ToolbarButtonText": {
+        "message": "卡巴斯基保护",
+        "description": ""
+    }
+}

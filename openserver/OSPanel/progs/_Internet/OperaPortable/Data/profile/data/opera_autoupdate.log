@@ -1,0 +1,12 @@
+[2768:6228:0903/151856.798:1413447918:INFO:networkimpl_win.cc(214)] [AU] No auto-proxy config defined for https://autoupdate.geo.opera.com/
+[2768:6228:0903/151856.802:1413447933:ERROR:networkimpl.cc(320)] [AU] Send Request status: 6
+[2768:6228:0903/151856.802:1413447933:ERROR:networkimpl.cc(521)] [AU] Request sending failed. HTTP return code: 0
+[2768:6228:0903/151859.080:1413450211:INFO:networkimpl_win.cc(214)] [AU] No auto-proxy config defined for https://autoupdate.geo.opera.com/
+[2768:6228:0903/151859.085:1413450211:ERROR:networkimpl.cc(320)] [AU] Send Request status: 6
+[2768:6228:0903/151859.085:1413450211:ERROR:networkimpl.cc(521)] [AU] Request sending failed. HTTP return code: 0
+[2768:6228:0903/151903.359:1413454485:INFO:networkimpl_win.cc(214)] [AU] No auto-proxy config defined for https://autoupdate.geo.opera.com/
+[2768:6228:0903/151903.364:1413454485:ERROR:networkimpl.cc(320)] [AU] Send Request status: 6
+[2768:6228:0903/151903.364:1413454485:ERROR:networkimpl.cc(521)] [AU] Request sending failed. HTTP return code: 0
+[2768:6228:0903/151911.809:1413462941:INFO:networkimpl_win.cc(214)] [AU] No auto-proxy config defined for https://autoupdate.geo.opera.com/
+[2768:6228:0903/151911.813:1413462941:ERROR:networkimpl.cc(320)] [AU] Send Request status: 6
+[2768:6228:0903/151911.813:1413462941:ERROR:networkimpl.cc(521)] [AU] Request sending failed. HTTP return code: 0
