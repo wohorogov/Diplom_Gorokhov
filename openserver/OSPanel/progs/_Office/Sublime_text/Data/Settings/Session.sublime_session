@@ -21,6 +21,14 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/F/445/asm.asm",
+					"settings":
+					{
+						"buffer_size": 3434,
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -46,6 +54,7 @@
 			},
 			"file_history":
 			[
+				"/F/asm.txt",
 				"/C/Users/User/Desktop/ыыыы/Data/Packages/Default/Preferences.sublime-settings",
 				"/C/Users/User/Desktop/ss",
 				"/C/Users/User/Desktop/ыыыы/Data/Packages/Emmet/Emmet.sublime-settings"
@@ -84,8 +93,36 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/F/445/asm.asm",
+							"settings":
+							{
+								"buffer_size": 3434,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -120,7 +157,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-1,-1,-1,-1,733,220,206,977",
+			"position": "0,0,1,-32000,-32000,-1,-1,733,220,206,977",
 			"replace":
 			{
 				"height": 0.0

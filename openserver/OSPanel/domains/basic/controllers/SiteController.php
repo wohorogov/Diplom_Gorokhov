@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use app\models\Login;
 use app\models\Signup;
+use app\models\User;
 use Yii;
 use yii\web\Controller;
 
@@ -31,6 +32,24 @@ class SiteController extends Controller
 
         return $this->render('signup',['model'=>$model]);
     }
+
+
+   /* public function actionSignup(){
+        if (!Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+        $model = new Signup();
+        if($model->load(\Yii::$app->request->post()) && $model->validate()){
+            $user = new User();
+            $user->username = $model->username;
+            $user->password = \Yii::$app->security->generatePasswordHash($model->password);
+            if($user->save()){
+                return $this->goHome();
+            }
+        }
+
+        return $this->render('signup', compact('model'));
+    }*/
 
 
     public function actionLogin()
