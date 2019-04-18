@@ -1,13 +1,13 @@
-[Thu Apr 18 20:48:13.672079 2019] [ssl:warn] [pid 9208:tid 540] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:13.674074 2019] [ssl:warn] [pid 9208:tid 540] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:13.887502 2019] [ssl:warn] [pid 9208:tid 540] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:13.889498 2019] [ssl:warn] [pid 9208:tid 540] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:15.468971 2019] [mpm_winnt:notice] [pid 9208:tid 540] AH00455: Apache/2.4.34 (Win64) OpenSSL/1.1.0i configured -- resuming normal operations
-[Thu Apr 18 20:48:15.468971 2019] [mpm_winnt:notice] [pid 9208:tid 540] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:38:51
-[Thu Apr 18 20:48:15.468971 2019] [core:notice] [pid 9208:tid 540] AH00094: Command line: 'W:\\modules\\http\\Apache-PHP-7.2-x64\\bin\\httpd.exe -d W:/modules/http/Apache-PHP-7.2-x64 -f w:\\modules\\http\\Apache-PHP-7.2-x64\\conf\\httpd.conf'
-[Thu Apr 18 20:48:15.477948 2019] [mpm_winnt:notice] [pid 9208:tid 540] AH00418: Parent: Created child process 9248
-[Thu Apr 18 20:48:16.414452 2019] [ssl:warn] [pid 9248:tid 532] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:16.415449 2019] [ssl:warn] [pid 9248:tid 532] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:16.505542 2019] [ssl:warn] [pid 9248:tid 532] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:16.507536 2019] [ssl:warn] [pid 9248:tid 532] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Thu Apr 18 20:48:16.555408 2019] [mpm_winnt:notice] [pid 9248:tid 532] AH00354: Child: Starting 32 worker threads.
+[Thu Apr 18 21:45:58.769474 2019] [ssl:warn] [pid 7684:tid 544] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:58.771472 2019] [ssl:warn] [pid 7684:tid 544] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:58.852074 2019] [ssl:warn] [pid 7684:tid 544] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:58.853071 2019] [ssl:warn] [pid 7684:tid 544] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:58.882993 2019] [mpm_winnt:notice] [pid 7684:tid 544] AH00455: Apache/2.4.34 (Win64) OpenSSL/1.1.0i configured -- resuming normal operations
+[Thu Apr 18 21:45:58.882993 2019] [mpm_winnt:notice] [pid 7684:tid 544] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:38:51
+[Thu Apr 18 21:45:58.882993 2019] [core:notice] [pid 7684:tid 544] AH00094: Command line: 'W:\\modules\\http\\Apache-PHP-7.2-x64\\bin\\httpd.exe -d W:/modules/http/Apache-PHP-7.2-x64 -f w:\\modules\\http\\Apache-PHP-7.2-x64\\conf\\httpd.conf'
+[Thu Apr 18 21:45:58.888234 2019] [mpm_winnt:notice] [pid 7684:tid 544] AH00418: Parent: Created child process 9204
+[Thu Apr 18 21:45:59.471513 2019] [ssl:warn] [pid 9204:tid 568] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:59.473507 2019] [ssl:warn] [pid 9204:tid 568] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:59.527116 2019] [ssl:warn] [pid 9204:tid 568] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:59.528113 2019] [ssl:warn] [pid 9204:tid 568] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 18 21:45:59.561023 2019] [mpm_winnt:notice] [pid 9204:tid 568] AH00354: Child: Starting 32 worker threads.
