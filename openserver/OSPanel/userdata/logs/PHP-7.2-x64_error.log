@@ -1,23 +1,23 @@
-[30-Jan-2019 11:21:09 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+[17-Apr-2019 14:42:06 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
 #3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
 #4 {main}
 Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
 #3 {main}
 
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
 #2 {main}
 $_SERVER = [
     'REDIRECT_STATUS' => '200',
@@ -28,24 +28,25 @@ $_SERVER = [
     'HTTP_REFERER' => 'http://dna/',
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
     'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'HTTP_COOKIE' => 'PHPSESSID=a3hrjnpina02en5iq5d7g3qd8p7587kp; _csrf=fd685bd1037a7daee1ae0fc817d044ee305da812e492df4a55504dd627f9d17aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TYJ6ulnlKP8rA7XA2XH78kSOZmX5f4sq%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
+    'WINDIR' => 'C:\\Windows',
     'SERVER_SIGNATURE' => '',
     'SERVER_SOFTWARE' => 'Apache',
     'SERVER_NAME' => 'dna',
     'SERVER_ADDR' => '127.0.0.1',
     'SERVER_PORT' => '80',
     'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
     'REQUEST_SCHEME' => 'http',
     'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
     'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2599',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '17264',
     'REDIRECT_URL' => '/favicon.ico',
     'GATEWAY_INTERFACE' => 'CGI/1.1',
     'SERVER_PROTOCOL' => 'HTTP/1.1',
@@ -54,31 +55,31 @@ $_SERVER = [
     'REQUEST_URI' => '/favicon.ico',
     'SCRIPT_NAME' => '/index.php',
     'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836468.146,
-    'REQUEST_TIME' => 1548836468,
+    'REQUEST_TIME_FLOAT' => 1555501326.468,
+    'REQUEST_TIME' => 1555501326,
     'argv' => [],
     'argc' => 0,
 ]
-[30-Jan-2019 11:22:49 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+[17-Apr-2019 14:42:08 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
 #3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
 #4 {main}
 Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
 #3 {main}
 
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
 #2 {main}
 $_SERVER = [
     'REDIRECT_STATUS' => '200',
@@ -89,25 +90,25 @@ $_SERVER = [
     'HTTP_REFERER' => 'http://dna/site/signup',
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
     'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'HTTP_COOKIE' => 'PHPSESSID=a3hrjnpina02en5iq5d7g3qd8p7587kp; _csrf=fd685bd1037a7daee1ae0fc817d044ee305da812e492df4a55504dd627f9d17aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TYJ6ulnlKP8rA7XA2XH78kSOZmX5f4sq%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
+    'WINDIR' => 'C:\\Windows',
     'SERVER_SIGNATURE' => '',
     'SERVER_SOFTWARE' => 'Apache',
     'SERVER_NAME' => 'dna',
     'SERVER_ADDR' => '127.0.0.1',
     'SERVER_PORT' => '80',
     'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
     'REQUEST_SCHEME' => 'http',
     'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
     'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2628',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '17263',
     'REDIRECT_URL' => '/favicon.ico',
     'GATEWAY_INTERFACE' => 'CGI/1.1',
     'SERVER_PROTOCOL' => 'HTTP/1.1',
@@ -116,157 +117,31 @@ $_SERVER = [
     'REQUEST_URI' => '/favicon.ico',
     'SCRIPT_NAME' => '/index.php',
     'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836569.149,
-    'REQUEST_TIME' => 1548836569,
+    'REQUEST_TIME_FLOAT' => 1555501328.742,
+    'REQUEST_TIME' => 1555501328,
     'argv' => [],
     'argc' => 0,
 ]
-[30-Jan-2019 11:22:49 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+[17-Apr-2019 14:42:25 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
 #3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
 #4 {main}
 Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request: site/about in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('about', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/about', Array)
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#4 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/signup',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2625',
-    'REDIRECT_URL' => '/site/about',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/site/about',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836569.697,
-    'REQUEST_TIME' => 1548836569,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:22:50 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
 #3 {main}
 
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
 Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/about',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2631',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836570.346,
-    'REQUEST_TIME' => 1548836570,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:22:52 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
 #2 {main}
 $_SERVER = [
     'REDIRECT_STATUS' => '200',
@@ -277,25 +152,25 @@ $_SERVER = [
     'HTTP_REFERER' => 'http://dna/site/signup',
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
     'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
+    'HTTP_COOKIE' => 'PHPSESSID=a3hrjnpina02en5iq5d7g3qd8p7587kp; _csrf=fd685bd1037a7daee1ae0fc817d044ee305da812e492df4a55504dd627f9d17aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TYJ6ulnlKP8rA7XA2XH78kSOZmX5f4sq%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
+    'WINDIR' => 'C:\\Windows',
     'SERVER_SIGNATURE' => '',
     'SERVER_SOFTWARE' => 'Apache',
     'SERVER_NAME' => 'dna',
     'SERVER_ADDR' => '127.0.0.1',
     'SERVER_PORT' => '80',
     'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
     'REQUEST_SCHEME' => 'http',
     'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
     'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2635',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '17283',
     'REDIRECT_URL' => '/favicon.ico',
     'GATEWAY_INTERFACE' => 'CGI/1.1',
     'SERVER_PROTOCOL' => 'HTTP/1.1',
@@ -304,694 +179,8 @@ $_SERVER = [
     'REQUEST_URI' => '/favicon.ico',
     'SCRIPT_NAME' => '/index.php',
     'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836572.632,
-    'REQUEST_TIME' => 1548836572,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:22:54 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request: site/contact in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('contact', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#4 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/signup',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2626',
-    'REDIRECT_URL' => '/site/contact',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/site/contact',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836574.137,
-    'REQUEST_TIME' => 1548836574,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:22:54 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/contact',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2637',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836574.317,
-    'REQUEST_TIME' => 1548836574,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:22:56 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/signup',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2638',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836576.572,
-    'REQUEST_TIME' => 1548836576,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:22:58 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/login',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2641',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836578.762,
-    'REQUEST_TIME' => 1548836578,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:23:02 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2639',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836582.029,
-    'REQUEST_TIME' => 1548836582,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:23:04 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/login',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2643',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836583.919,
-    'REQUEST_TIME' => 1548836583,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:23:05 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/index',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2644',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836585.621,
-    'REQUEST_TIME' => 1548836585,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:24:13 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_PRAGMA' => 'no-cache',
-    'HTTP_CACHE_CONTROL' => 'no-cache',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/index',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2659',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836653.53,
-    'REQUEST_TIME' => 1548836653,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:24:16 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/login',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2661',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836656.451,
-    'REQUEST_TIME' => 1548836656,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:24:17 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/index',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2663',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548836657.6,
-    'REQUEST_TIME' => 1548836657,
-    'argv' => [],
-    'argc' => 0,
-]
-[30-Jan-2019 11:42:46 Europe/Moscow] An Error occurred while handling another error:
-yii\base\InvalidRouteException: Unable to resolve the request: site/error in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
-#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
-#4 {main}
-Previous exception:
-yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#2 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#3 {main}
-
-Next yii\web\NotFoundHttpException: Page not found. in D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
-Stack trace:
-#0 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\Documents\GitHub\Diplom\Diplom_Gorokhov\openserver\OSPanel\domains\dna\index.php(12): yii\base\Application->run()
-#2 {main}
-$_SERVER = [
-    'REDIRECT_STATUS' => '200',
-    'HTTP_HOST' => 'dna',
-    'HTTP_CONNECTION' => 'keep-alive',
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
-    'HTTP_REFERER' => 'http://dna/site/login',
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
-    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=bnal3cc50bdi8gpcfblc65srpphc030o; _csrf=d30cdd24787486ae2ac5d7880d89d61778a2395e5c6e2330b27410950d1c90b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FuySlShb1euaRETS1StXlzMwM2br8K_o%22%3B%7D',
-    'PATH' => 'd:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\ext;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64\\pear\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\php\\PHP-7.2-x64;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\imagemagick;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\wget\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\mingw\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\git\\cmd;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin;d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64',
-    'SystemRoot' => 'C:\\WINDOWS',
-    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe',
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
-    'WINDIR' => 'C:\\WINDOWS',
-    'SERVER_SIGNATURE' => '',
-    'SERVER_SOFTWARE' => 'Apache',
-    'SERVER_NAME' => 'dna',
-    'SERVER_ADDR' => '127.0.0.1',
-    'SERVER_PORT' => '80',
-    'REMOTE_ADDR' => '127.0.0.1',
-    'DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'REQUEST_SCHEME' => 'http',
-    'CONTEXT_PREFIX' => '',
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna',
-    'SERVER_ADMIN' => '[no address given]',
-    'SCRIPT_FILENAME' => 'D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/domains/dna/index.php',
-    'REMOTE_PORT' => '2899',
-    'REDIRECT_URL' => '/favicon.ico',
-    'GATEWAY_INTERFACE' => 'CGI/1.1',
-    'SERVER_PROTOCOL' => 'HTTP/1.1',
-    'REQUEST_METHOD' => 'GET',
-    'QUERY_STRING' => '',
-    'REQUEST_URI' => '/favicon.ico',
-    'SCRIPT_NAME' => '/index.php',
-    'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1548837764.787,
-    'REQUEST_TIME' => 1548837764,
+    'REQUEST_TIME_FLOAT' => 1555501345.901,
+    'REQUEST_TIME' => 1555501345,
     'argv' => [],
     'argc' => 0,
 ]

@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Profile;
 use Yii;
 use yii\base\Model;
 use yii\web\Controller;
@@ -33,7 +34,7 @@ class SiteController extends Controller
             $model->attributes=Yii::$app->request->post('Signup');
             if($model->validate() && $model->signup())
             {
-                return $this->goHome();
+                return $this->render('login');
             }
         }
         return $this->render('signup',['model'=> new $model]);
@@ -41,22 +42,25 @@ class SiteController extends Controller
 
     public function actionLogin()
     {
-        if (!Yii::$app->user->isGuest)
-        {
+        if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
         $login_model = new Login();
 
-        if(Yii::$app->request->post('Login'))
-        {
-            $login_model->attributes=Yii::$app->request->post('Login');
+        if (Yii::$app->request->post('Login')) {
+            $login_model->attributes = Yii::$app->request->post('Login');
 
-            if($login_model->validate())
-            {
+            if ($login_model->validate()) {
                 Yii::$app->user->login($login_model->getUser());
-                return $this->goHome();
+                return $this->render('profile');
             }
         }
-        return$this->render('login',['login_model'=>$login_model]);
+        return $this->render('login', ['login_model' => $login_model]);
     }
+
+    public function actionProfile()
+    {
+        return $this->render('profile');
+    }
+
 }

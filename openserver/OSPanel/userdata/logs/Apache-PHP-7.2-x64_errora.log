@@ -1,21 +1,13 @@
-[Wed Jan 30 13:19:51.996740 2019] [ssl:warn] [pid 9264:tid 588] AH01909: example:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:51.998559 2019] [ssl:warn] [pid 9264:tid 588] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:51.999556 2019] [ssl:warn] [pid 9264:tid 588] AH01909: basic:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:51.999556 2019] [ssl:warn] [pid 9264:tid 588] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:52.123226 2019] [ssl:warn] [pid 9264:tid 588] AH01909: example:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:52.157135 2019] [ssl:warn] [pid 9264:tid 588] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:52.158131 2019] [ssl:warn] [pid 9264:tid 588] AH01909: basic:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:52.159129 2019] [ssl:warn] [pid 9264:tid 588] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:55.272800 2019] [mpm_winnt:notice] [pid 9264:tid 588] AH00455: Apache/2.4.34 (Win64) OpenSSL/1.1.0i configured -- resuming normal operations
-[Wed Jan 30 13:19:55.272800 2019] [mpm_winnt:notice] [pid 9264:tid 588] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:38:51
-[Wed Jan 30 13:19:55.272800 2019] [core:notice] [pid 9264:tid 588] AH00094: Command line: 'D:\\Documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\bin\\httpd.exe -d D:/Documents/GitHub/Diplom/Diplom_Gorokhov/openserver/OSPanel/modules/http/Apache-PHP-7.2-x64 -f d:\\documents\\github\\diplom\\diplom_gorokhov\\openserver\\ospanel\\modules\\http\\Apache-PHP-7.2-x64\\conf\\httpd.conf'
-[Wed Jan 30 13:19:55.334636 2019] [mpm_winnt:notice] [pid 9264:tid 588] AH00418: Parent: Created child process 456
-[Wed Jan 30 13:19:56.473588 2019] [ssl:warn] [pid 456:tid 564] AH01909: example:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.475583 2019] [ssl:warn] [pid 456:tid 564] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.475583 2019] [ssl:warn] [pid 456:tid 564] AH01909: basic:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.476580 2019] [ssl:warn] [pid 456:tid 564] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.602245 2019] [ssl:warn] [pid 456:tid 564] AH01909: example:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.603243 2019] [ssl:warn] [pid 456:tid 564] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.604240 2019] [ssl:warn] [pid 456:tid 564] AH01909: basic:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.605237 2019] [ssl:warn] [pid 456:tid 564] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
-[Wed Jan 30 13:19:56.682031 2019] [mpm_winnt:notice] [pid 456:tid 564] AH00354: Child: Starting 32 worker threads.
+[Wed Apr 17 16:41:48.438933 2019] [ssl:warn] [pid 7048:tid 584] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:48.441458 2019] [ssl:warn] [pid 7048:tid 584] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:48.524867 2019] [ssl:warn] [pid 7048:tid 584] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:48.525865 2019] [ssl:warn] [pid 7048:tid 584] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:48.562380 2019] [mpm_winnt:notice] [pid 7048:tid 584] AH00455: Apache/2.4.34 (Win64) OpenSSL/1.1.0i configured -- resuming normal operations
+[Wed Apr 17 16:41:48.562380 2019] [mpm_winnt:notice] [pid 7048:tid 584] AH00456: Apache Lounge VC15 Server built: Aug 15 2018 11:38:51
+[Wed Apr 17 16:41:48.562380 2019] [core:notice] [pid 7048:tid 584] AH00094: Command line: 'W:\\modules\\http\\Apache-PHP-7.2-x64\\bin\\httpd.exe -d W:/modules/http/Apache-PHP-7.2-x64 -f w:\\modules\\http\\Apache-PHP-7.2-x64\\conf\\httpd.conf'
+[Wed Apr 17 16:41:48.569010 2019] [mpm_winnt:notice] [pid 7048:tid 584] AH00418: Parent: Created child process 4908
+[Wed Apr 17 16:41:49.319812 2019] [ssl:warn] [pid 4908:tid 536] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:49.322850 2019] [ssl:warn] [pid 4908:tid 536] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:49.410195 2019] [ssl:warn] [pid 4908:tid 536] AH01909: dna:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:49.411193 2019] [ssl:warn] [pid 4908:tid 536] AH01909: default:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 16:41:49.480455 2019] [mpm_winnt:notice] [pid 4908:tid 536] AH00354: Child: Starting 32 worker threads.
