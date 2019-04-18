@@ -1,4 +1,4 @@
-[17-Apr-2019 14:42:06 Europe/Moscow] An Error occurred while handling another error:
+[18-Apr-2019 19:05:17 Europe/Moscow] An Error occurred while handling another error:
 yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
 Stack trace:
 #0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
@@ -28,7 +28,7 @@ $_SERVER = [
     'HTTP_REFERER' => 'http://dna/',
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
     'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=a3hrjnpina02en5iq5d7g3qd8p7587kp; _csrf=fd685bd1037a7daee1ae0fc817d044ee305da812e492df4a55504dd627f9d17aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TYJ6ulnlKP8rA7XA2XH78kSOZmX5f4sq%22%3B%7D',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
     'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
     'SystemRoot' => 'C:\\Windows',
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
@@ -46,7 +46,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
     'SERVER_ADMIN' => '[no address given]',
     'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
-    'REMOTE_PORT' => '17264',
+    'REMOTE_PORT' => '58149',
     'REDIRECT_URL' => '/favicon.ico',
     'GATEWAY_INTERFACE' => 'CGI/1.1',
     'SERVER_PROTOCOL' => 'HTTP/1.1',
@@ -55,12 +55,12 @@ $_SERVER = [
     'REQUEST_URI' => '/favicon.ico',
     'SCRIPT_NAME' => '/index.php',
     'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1555501326.468,
-    'REQUEST_TIME' => 1555501326,
+    'REQUEST_TIME_FLOAT' => 1555603517.219,
+    'REQUEST_TIME' => 1555603517,
     'argv' => [],
     'argc' => 0,
 ]
-[17-Apr-2019 14:42:08 Europe/Moscow] An Error occurred while handling another error:
+[18-Apr-2019 19:05:20 Europe/Moscow] An Error occurred while handling another error:
 yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
 Stack trace:
 #0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
@@ -90,7 +90,7 @@ $_SERVER = [
     'HTTP_REFERER' => 'http://dna/site/signup',
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
     'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=a3hrjnpina02en5iq5d7g3qd8p7587kp; _csrf=fd685bd1037a7daee1ae0fc817d044ee305da812e492df4a55504dd627f9d17aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TYJ6ulnlKP8rA7XA2XH78kSOZmX5f4sq%22%3B%7D',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
     'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
     'SystemRoot' => 'C:\\Windows',
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
@@ -108,7 +108,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
     'SERVER_ADMIN' => '[no address given]',
     'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
-    'REMOTE_PORT' => '17263',
+    'REMOTE_PORT' => '58147',
     'REDIRECT_URL' => '/favicon.ico',
     'GATEWAY_INTERFACE' => 'CGI/1.1',
     'SERVER_PROTOCOL' => 'HTTP/1.1',
@@ -117,12 +117,12 @@ $_SERVER = [
     'REQUEST_URI' => '/favicon.ico',
     'SCRIPT_NAME' => '/index.php',
     'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1555501328.742,
-    'REQUEST_TIME' => 1555501328,
+    'REQUEST_TIME_FLOAT' => 1555603520.848,
+    'REQUEST_TIME' => 1555603520,
     'argv' => [],
     'argc' => 0,
 ]
-[17-Apr-2019 14:42:25 Europe/Moscow] An Error occurred while handling another error:
+[18-Apr-2019 19:05:29 Europe/Moscow] An Error occurred while handling another error:
 yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
 Stack trace:
 #0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
@@ -152,7 +152,7 @@ $_SERVER = [
     'HTTP_REFERER' => 'http://dna/site/signup',
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
     'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
-    'HTTP_COOKIE' => 'PHPSESSID=a3hrjnpina02en5iq5d7g3qd8p7587kp; _csrf=fd685bd1037a7daee1ae0fc817d044ee305da812e492df4a55504dd627f9d17aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TYJ6ulnlKP8rA7XA2XH78kSOZmX5f4sq%22%3B%7D',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
     'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
     'SystemRoot' => 'C:\\Windows',
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
@@ -170,7 +170,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
     'SERVER_ADMIN' => '[no address given]',
     'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
-    'REMOTE_PORT' => '17283',
+    'REMOTE_PORT' => '58151',
     'REDIRECT_URL' => '/favicon.ico',
     'GATEWAY_INTERFACE' => 'CGI/1.1',
     'SERVER_PROTOCOL' => 'HTTP/1.1',
@@ -179,8 +179,1498 @@ $_SERVER = [
     'REQUEST_URI' => '/favicon.ico',
     'SCRIPT_NAME' => '/index.php',
     'PHP_SELF' => '/index.php',
-    'REQUEST_TIME_FLOAT' => 1555501345.901,
-    'REQUEST_TIME' => 1555501345,
+    'REQUEST_TIME_FLOAT' => 1555603529.248,
+    'REQUEST_TIME' => 1555603529,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:05:37 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58156',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603537.847,
+    'REQUEST_TIME' => 1555603537,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:06:44 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58162',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603604.881,
+    'REQUEST_TIME' => 1555603604,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:06:59 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58171',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603619.106,
+    'REQUEST_TIME' => 1555603619,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:06 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/login',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58172',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603626.124,
+    'REQUEST_TIME' => 1555603626,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:11 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/login',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58175',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603631.382,
+    'REQUEST_TIME' => 1555603631,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:15 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/login',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=7995jqbce4q05jkuotc6fmhk69a7v9d1; _csrf=a1e953f583e84ceaadf6866668521b30ce74f7191e9a7582f77bc626ffda3b01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BQAKUOos1e2zhSf2q9txK-yAjMJNUHMD%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58177',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603635.865,
+    'REQUEST_TIME' => 1555603635,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:19 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/login',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58174',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603639.825,
+    'REQUEST_TIME' => 1555603639,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:34 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/contact in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('contact', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 W:\domains\dna\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/login',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58184',
+    'REDIRECT_URL' => '/site/contact',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/contact',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603654.486,
+    'REQUEST_TIME' => 1555603654,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:34 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/contact',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58185',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603654.703,
+    'REQUEST_TIME' => 1555603654,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:38 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58188',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603658.576,
+    'REQUEST_TIME' => 1555603658,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:43 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/profile',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58189',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603663.638,
+    'REQUEST_TIME' => 1555603663,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:44 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58195',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603664.609,
+    'REQUEST_TIME' => 1555603664,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:45 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/profile',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58199',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603665.29,
+    'REQUEST_TIME' => 1555603665,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:46 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58207',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603665.844,
+    'REQUEST_TIME' => 1555603665,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:46 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/profile',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58203',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603666.431,
+    'REQUEST_TIME' => 1555603666,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:47 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58211',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603667.054,
+    'REQUEST_TIME' => 1555603667,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:47 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/profile',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58215',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603667.575,
+    'REQUEST_TIME' => 1555603667,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:48 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/index',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=kig6su2q9uicivufat6r2n63fattomhv; _csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58219',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603668.191,
+    'REQUEST_TIME' => 1555603668,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:52 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/login',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => '_csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D; PHPSESSID=38bkgnf1t687pa526gtjjef9dn4tjvgj',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58223',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603672.322,
+    'REQUEST_TIME' => 1555603672,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:07:53 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => '_csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D; PHPSESSID=38bkgnf1t687pa526gtjjef9dn4tjvgj',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58227',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603673.241,
+    'REQUEST_TIME' => 1555603673,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:12:56 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => '_csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D; PHPSESSID=38bkgnf1t687pa526gtjjef9dn4tjvgj',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58320',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555603976.12,
+    'REQUEST_TIME' => 1555603976,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:22:16 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => '_csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D; PHPSESSID=38bkgnf1t687pa526gtjjef9dn4tjvgj',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58368',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555604536.797,
+    'REQUEST_TIME' => 1555604536,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:22:32 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => '_csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D; PHPSESSID=38bkgnf1t687pa526gtjjef9dn4tjvgj',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58394',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555604552.064,
+    'REQUEST_TIME' => 1555604552,
+    'argv' => [],
+    'argc' => 0,
+]
+[18-Apr-2019 19:22:34 Europe/Moscow] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in W:\domains\dna\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\web\ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#2 W:\domains\dna\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in W:\domains\dna\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\dna\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\dna\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\dna\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\dna\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'dna',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_REFERER' => 'http://dna/site/signup',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.9,en;q=0.8',
+    'HTTP_COOKIE' => '_csrf=f28cda3e53a9d8eff5a774663ec768ff58fb0cb073d88bdfa070cef86c5ee96ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXe_cZMcyr1IpK2L4n1StSXrCdH9kExo%22%3B%7D; PHPSESSID=38bkgnf1t687pa526gtjjef9dn4tjvgj',
+    'PATH' => 'w:\\modules\\php\\PHP-7.2-x64\\ext;w:\\modules\\php\\PHP-7.2-x64\\pear;w:\\modules\\php\\PHP-7.2-x64\\pear\\bin;w:\\modules\\php\\PHP-7.2-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\git;w:\\modules\\git\\bin;w:\\modules\\git\\mingw\\bin;w:\\modules\\git\\cmd;w:\\modules\\database\\MySQL-5.6\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64\\bin;w:\\modules\\http\\Apache-PHP-7.2-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64',
+    'SystemRoot' => 'C:\\Windows',
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    'WINDIR' => 'C:\\Windows',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'dna',
+    'SERVER_ADDR' => '127.0.0.1',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '127.0.0.1',
+    'DOCUMENT_ROOT' => 'W:/domains/dna',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/dna',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => 'W:/domains/dna/index.php',
+    'REMOTE_PORT' => '58392',
+    'REDIRECT_URL' => '/favicon.ico',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/favicon.ico',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1555604554.811,
+    'REQUEST_TIME' => 1555604554,
     'argv' => [],
     'argc' => 0,
 ]
